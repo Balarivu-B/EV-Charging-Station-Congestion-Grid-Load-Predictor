@@ -1,0 +1,114 @@
+{
+    "Logistic Regression": {
+        "Accuracy": 0.99,
+        "Precision": 0.9901323609596511,
+        "Recall": 0.99,
+        "F1 Score": 0.9899998383769241,
+        "Confusion Matrix": [
+            [
+                129,
+                3,
+                0
+            ],
+            [
+                0,
+                128,
+                1
+            ],
+            [
+                0,
+                0,
+                139
+            ]
+        ],
+        "Labels": [
+            "Low",
+            "Medium",
+            "High"
+        ]
+    },
+    "Decision Tree": {
+        "Accuracy": 0.9525,
+        "Precision": 0.9525259981748531,
+        "Recall": 0.9525,
+        "F1 Score": 0.9524000842307637,
+        "Confusion Matrix": [
+            [
+                128,
+                4,
+                0
+            ],
+            [
+                3,
+                118,
+                8
+            ],
+            [
+                0,
+                4,
+                135
+            ]
+        ],
+        "Labels": [
+            "Low",
+            "Medium",
+            "High"
+        ]
+    },
+    "Random Forest": {
+        "Accuracy": 0.9525,
+        "Precision": 0.9547654344609419,
+        "Recall": 0.9525,
+        "F1 Score": 0.9524843638948117,
+        "Confusion Matrix": [
+            [
+                119,
+                10,
+                3
+            ],
+            [
+                1,
+                126,
+                2
+            ],
+            [
+                0,
+                3,
+                136
+            ]
+        ],
+        "Labels": [
+            "Low",
+            "Medium",
+            "High"
+        ]
+    },
+    "Grid Load Model (Random Forest)": {
+        "Accuracy": 0.965,
+        "Precision": 0.9670981554677208,
+        "Recall": 0.965,
+        "F1 Score": 0.9653029962967118,
+        "Confusion Matrix": [
+            [
+                130,
+                4,
+                0
+            ],
+            [
+                2,
+                126,
+                0
+            ],
+            [
+                0,
+                8,
+                130
+            ]
+        ],
+        "Labels": [
+            "Low",
+            "Medium",
+            "High"
+        ]
+    }
+}
